@@ -40,10 +40,10 @@ app.get("/", (req,res) =>{
       }<br/><br/>
       2. Room Booking<br/>path-/book-room<br/>method- "POST"<br/>data - raw, json<br/>
       body (sample) - {
-        "customer_name": "cust1",
-        "Date": "9/19/2022",
+        "customer_name": "cust11",
+        "Date": "10/19/2022",
         "StartTime": "9/19/2022 11:30:00",
-        "EndTime": "9/19/2022 2:45:00",
+        "EndTime": "9/19/2022 14:45:00",
         "room_id": "62d52593e5d9beaf9d690926"
       }<br/><br/>
       3. List all rooms<br/>path - /room-status<br/>method - "GET"<br/><br/>
